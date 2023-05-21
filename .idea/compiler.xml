@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicio-eureka" />
+        <module name="microservicio-pedidos" />
+        <module name="microservicio-clientes" />
+        <module name="microservicio-gateway" />
+        <module name="microservicio-productos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicio-facturas" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservicio-clientes" options="-parameters" />
+      <module name="microservicio-eureka" options="-parameters" />
+      <module name="microservicio-facturas" options="-parameters" />
+      <module name="microservicio-gateway" options="-parameters" />
+      <module name="microservicio-pedidos" options="-parameters" />
+      <module name="microservicio-productos" options="-parameters" />
+    </option>
+  </component>
+</project>

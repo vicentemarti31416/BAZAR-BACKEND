@@ -56,7 +56,8 @@ public class OrderController {
         Optional<Order> optionalOrder = orderService.findById(id);
         if (optionalOrder.isEmpty()) return ResponseEntity.notFound().build();
         Order orderDB = optionalOrder.get();
-        orderDB.setProductsId(order.getProductsId());
+        orderDB.getItems().clear();
+        orderDB.getItems().addAll(order.getItems());
         orderDB.setClientId(order.getClientId());
         return ResponseEntity.status(HttpStatus.CREATED).body(orderService.save(orderDB));
     }

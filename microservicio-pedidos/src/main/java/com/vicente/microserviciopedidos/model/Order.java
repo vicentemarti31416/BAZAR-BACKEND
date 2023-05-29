@@ -15,7 +15,8 @@ public class Order {
     private Long id;
     private Instant created;
     private Long clientId;
-    private Set<String> productsId = new HashSet<>();
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Item> items = new HashSet<>();
     private Integer amount;
     private String iban;
 
@@ -48,12 +49,12 @@ public class Order {
         this.clientId = clientId;
     }
 
-    public Set<String> getProductsId() {
-        return productsId;
+    public Set<Item> getItems() {
+        return items;
     }
 
-    public void setProductsId(Set<String> productsId) {
-        this.productsId = productsId;
+    public void setItems(Set<Item> items) {
+        this.items = items;
     }
 
     public Integer getAmount() {

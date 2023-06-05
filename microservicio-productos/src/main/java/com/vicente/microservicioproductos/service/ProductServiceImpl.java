@@ -35,4 +35,20 @@ public class ProductServiceImpl implements ProductService{
     public void deleteById(String id) {
         productRepository.deleteById(id);
     }
+
+    @Override
+    public List<Product> findProductsWithOptionalColorTrue(int numberOfElements) {
+        return productRepository.findProductsWithOptionalColorTrue(numberOfElements);
+    }
+
+    @Override
+    public List<Product> findProductsWithOptionalColorFalse(int numberOfElements) {
+        return productRepository.findProductsWithOptionalColorFalse(numberOfElements);
+    }
+
+    @Override
+    public List<Product> findByColorCode(Integer colorCode) {
+        return productRepository.findByColorCode(colorCode);
+    }
+
 }

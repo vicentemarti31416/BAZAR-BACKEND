@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c1d142-fa2f-4669-a0ed-8987000ccdf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-pedidos/src/main/java/com/vicente/microserviciopedidos/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/controller/PhotoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/model/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/repository/PhotoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/ImageUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/PhotoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/PhotoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-pedidos/src/main/java/com/vicente/microserviciopedidos/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-pedidos/src/main/java/com/vicente/microserviciopedidos/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-pedidos/src/main/java/com/vicente/microserviciopedidos/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-pedidos/src/main/java/com/vicente/microserviciopedidos/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-productos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/MicroservicioProductosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/MicroservicioProductosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/model/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/model/Photo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-productos/src/main/java/com/vicente/microservicioproductos/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

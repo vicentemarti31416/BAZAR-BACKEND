@@ -1,7 +1,6 @@
 package com.vicente.microservicioproductos.model;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.ArrayList;
@@ -14,9 +13,13 @@ public class Product {
     @Id
     private String id;
     private String name;
-    private String description;
     private Float price;
-    private String color;
+    private String description;
+    private String colorName;
+    private Integer colorCode;
+    private String colorRgb;
+    private Boolean hasColors;
+    private String size;
     private Float iva;
     private Integer quantity;
     private List<Photo> photos = new ArrayList<>();
@@ -53,12 +56,44 @@ public class Product {
         this.price = price;
     }
 
-    public String getColor() {
-        return color;
+    public String getColorName() {
+        return colorName;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setColorName(String colorName) {
+        this.colorName = colorName;
+    }
+
+    public Integer getColorCode() {
+        return colorCode;
+    }
+
+    public void setColorCode(Integer colorCode) {
+        this.colorCode = colorCode;
+    }
+
+    public String getColorRgb() {
+        return colorRgb;
+    }
+
+    public void setColorRgb(String colorRgb) {
+        this.colorRgb = colorRgb;
+    }
+
+    public Boolean getHasColors() {
+        return hasColors;
+    }
+
+    public void setHasColors(Boolean hasColors) {
+        this.hasColors = hasColors;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 
     public Float getIva() {
@@ -90,9 +125,12 @@ public class Product {
         return "Product{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
                 ", price=" + price +
-                ", color='" + color + '\'' +
+                ", description='" + description + '\'' +
+                ", colorName='" + colorName + '\'' +
+                ", colorCode=" + colorCode +
+                ", colorRgb='" + colorRgb + '\'' +
+                ", size='" + size + '\'' +
                 ", iva=" + iva +
                 ", quantity=" + quantity +
                 ", photos=" + photos +

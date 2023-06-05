@@ -11,4 +11,7 @@ public interface ProductService {
     Optional<Product> findByd(String id);
     Product save(Product product);
     void deleteById(String id);
+    List<Product> findProductsWithOptionalColorTrue(int numberOfElements);
+    List<Product> findProductsWithOptionalColorFalse(int numberOfElements);
+    List<Product> findByColorCode(Integer colorCode);
 }

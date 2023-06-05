@@ -13,6 +13,8 @@ public class Photo {
     private String url;
     private String publicId;
     private String productId;
+    private boolean principal;
+    private boolean optionalColor;
 
     public String getId() {
         return id;
@@ -46,6 +48,22 @@ public class Photo {
         this.productId = productId;
     }
 
+    public boolean isPrincipal() {
+        return principal;
+    }
+
+    public boolean isOptionalColor() {
+        return optionalColor;
+    }
+
+    public void setOptionalColor(boolean optionalColor) {
+        this.optionalColor = optionalColor;
+    }
+
+    public void setPrincipal(boolean principal) {
+        this.principal = principal;
+    }
+
     @Override
     public String toString() {
         return "Photo{" +
@@ -53,6 +71,8 @@ public class Photo {
                 ", url='" + url + '\'' +
                 ", publicId='" + publicId + '\'' +
                 ", productId='" + productId + '\'' +
+                ", principal=" + principal +
+                ", optionalColor=" + optionalColor +
                 '}';
     }
 
